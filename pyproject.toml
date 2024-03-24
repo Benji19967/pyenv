@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "pyenv"
+version = "0.1.0"
+description = "Basic python virtual environment to test things out"
+authors = [ "Benjamin Labrecque" ]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+typer = "^0.7.0"
+requests = "2.28.2"
+pydantic = "^1.10.7"
+pendulum = "^3.0.0"
+ipython = "^8.16.0"
